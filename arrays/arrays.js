@@ -19,8 +19,18 @@
 /* ----------------------- ForEach ----------------------- */
 
 
-let nomes = ["Matheus", "Ana", "Igor", "João", "Alice", "Marcos"]
+// let nomes = ["Matheus", "Ana", "Igor", "João", "Alice", "Marcos"]
 
-nomes.forEach((elemento) =>{
-    console.log(`Bom dia ${elemento}`)
+// nomes.forEach((elemento) =>{
+//     console.log(`Bom dia ${elemento}`)
+// })
+
+
+let nomes = [" Matheus", "Ferraz", "Julia"]
+
+nomes.forEach((nome) =>{
+    console.log("------------");
+    console.log("| " + nome + " |");
+    console.log("------------");
+    
 })
